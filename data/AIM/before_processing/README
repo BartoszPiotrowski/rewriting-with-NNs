@@ -1,0 +1,42 @@
+There are 20 TPTP files with 2n+1 declarations where n is the number of examples.
+
+The first line is an equation E.
+
+After that each pair of lines is a ground clause before
+being rewritten with E followed by a ground clause after
+being rewritten by E.
+
+In 8 files the equation E is ground. These files are
+named instused*u.p.
+
+In 12 files the equation E has variables and the rewrites
+may use different instances of E. These files are named
+abstrused*u.p.
+
+Here are the file names along with the number n of examples:
+
+Ground cases:
+
+instused1u.p : 331
+instused2u.p : 327
+instused3u.p : 140
+instused4u.p : 175
+instused5u.p : 740
+instused6u.p : 1934
+instused7u.p : 511
+instused8u.p : 193
+
+Nonground cases:
+
+abstrused1u.p : 4123
+abstrused2u.p : 3429
+abstrused3u.p : 2350
+abstrused4u.p : 2722
+abstrused5u.p : 4269
+abstrused6u.p : 136
+abstrused7u.p : 126
+abstrused8u.p : 132
+abstrused9u.p : 2873
+abstrused10u.p : 5588
+abstrused11u.p : 17050
+abstrused12u.p : 12001
